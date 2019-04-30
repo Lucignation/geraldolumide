@@ -1,0 +1,25 @@
+.Terms{
+    text-align: center;
+    padding: 15px;
+    background-color: #038897;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.conditions{
+    background-color: rgb(238, 238, 238);
+    padding: 40px;
+}
+
+@media (max-width: 768px){
+    .conditions{
+        text-align: center;
+    }
+
+    .Terms{
+        margin-top: -17px;;
+        
+    }
+    
+}

@@ -1,0 +1,685 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+}
+
+a:hover{
+    text-decoration: none;
+    color: #747474;
+}
+
+.upperNav h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.upperNav{
+    padding-top: 10px;
+    display: flex;
+    background-color: #04555E;
+    color: #fff;
+    justify-content: space-around;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li, a{
+    margin-left: 40px;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+
+
+.lowerNav{
+    background-image: url("../images//Landing-Page.gif");
+    height: 70vh;
+    text-align: center;
+}
+
+.lowerNav h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+
+    animation: slide 0.6s ease-in-out
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(-50%);
+    }
+
+    50%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+.lowerNav hr{
+    border: 2px solid #fff;
+    width: 140px; 
+}
+
+.lowerNav p{
+    color: #fff;
+}
+
+.lowerNav img{
+    width: 430px;
+    margin-top: 70px;
+}
+
+.aboutHeader{
+    display: flex;
+    align-content: center;
+}
+
+.about{
+    color: #04555E;
+    text-align: center;
+}
+
+.about svg{
+    fill: #04555E;
+    background-color: #fff;
+    z-index: 1000;
+    position: relative;
+    right: 670px;
+    top: 3px;
+
+}
+
+.about h1{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.about hr{
+    border: 2px solid #04555E;
+    width: 30%;
+    position: relative;
+    z-index: 800;
+}
+
+
+.projects{
+    background-color:  #038897;
+    color: #fff;
+    text-align: center; 
+
+}
+
+.singleProject{
+    padding: 30px 90px;
+    width: 33.5%;
+}
+
+#middleProject{
+    background-color: #00A1B4;
+}
+
+#lastProject{
+    background-color: #04555E ;
+}
+
+
+.projects h2{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.projects hr{
+    border: 2px solid #fff;
+    width: 15%;
+    position: relative;
+    z-index: 800;
+}
+
+.projects svg{
+    fill: #fff;
+    background-color: #038897;
+    z-index: 1000;
+    position: relative;
+    right: 670px;
+    top: 3px;
+
+}
+
+
+.about p{
+    color: #747474;
+    padding: 15px 90px;
+    line-height: 1.3;
+}
+
+.threeProjects{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.threeProjects img{
+    width: 353px;
+}
+
+.ClientAndTestimonial{
+    background-color: #04555E;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial img{
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.clientsInfo{
+    /* position: absolute; */
+    margin-top: -90px; 
+    z-index: 1200;
+    margin-left: 280px;
+}
+
+.ClientAndTestimonial hr{
+    border: 2px solid #fff;
+    width: 30%;
+    position: relative;
+    z-index: 800;
+    left: 10px;
+    
+}
+
+.ClientAndTestimonial svg{
+    fill: #fff;
+    background-color: #04555E;
+    z-index: 1000;
+    position: relative;
+    right: 260px;
+    top: 3px;
+
+}
+
+
+.testimonial, .clients{
+    width: 40%;
+}
+
+.writeByClients{
+    background-color: #fff;
+    color: #747474;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.clientsImages{
+    display: flex;
+    justify-content: space-around;
+}
+
+.clientsImages img{
+    width: 120px;
+    height: 93px;
+}
+
+.firstLower{
+    background-color: rgba(0, 162, 180, 0.329);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #04555E;
+}
+
+.firstLower ul li{
+    list-style: none;
+}
+.firstLower a{
+    text-decoration: none;
+    color: #04555E;
+}
+
+.firstLower h3{
+    padding-bottom: 20px;  
+
+}
+
+.firstLower hr{
+    display: none;
+
+}
+
+.lowerLink{
+    width: 34%;
+}
+
+.firstLower button{
+    background-color: #04555E;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+
+}
+
+.firstLower button:hover{
+    background-color: #fff;
+    color:#04555E;
+}
+
+footer{
+    background-color: #04555E;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    padding-top: 10px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+    margin: auto;
+}
+
+.social i{
+    width: 40px;
+    border: 1px solid #fff;
+    border-radius: 120%;
+    padding: 10px;
+}
+
+.social i:hover{
+    color: #04555E;
+    background-color: #fff;
+}
+
+.handleMessage{
+    width: 40%;
+    margin: auto;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.lowestPart{
+    padding-top: 40px;
+}
+
+.threeProjects button{
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+#lastProject a {
+    margin-right: -10px;
+}
+.viewButton p{
+    color: #fff;
+    padding: 20px;
+}
+#firstProject .viewButton{
+    background-color: #038897;
+    height: 92vh;
+    position: absolute;
+    display: block;
+    width: 27%;
+    margin-top: -490px; 
+    padding-top: 230px;
+    transform-origin: 50% 50% 0;
+    transform: translateX(-110%);
+    overflow: hidden;
+    opacity: 0;
+}
+
+#firstProject:hover .viewButton{
+    transform: translateX(0%);
+    opacity: 1;
+    transition: all .8s ease-in-out;
+    
+}
+
+#middleProject .viewButton{
+    background-color: #038897;
+    height: 95vh;
+    position: absolute;
+    display: block;
+    width: 33.54%;
+    margin-top: -520px; 
+    margin-left: -89.9px; 
+    padding-top: 230px;
+    transform-origin: 50% 50% 0;
+    transform: translateY(-110%);
+    overflow: hidden;
+    opacity: 0;
+}
+
+#middleProject:hover .viewButton{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all .8s ease-out;
+    
+}
+
+#lastProject .viewButton{
+    background-color: #038897;
+    height: 92vh;
+    position: absolute;
+    display: block;
+    width: 33.54%;
+    margin-top: -490px; 
+    margin-left: -89.9px; 
+    padding-top: 230px;
+    transform-origin: 50% 50% 0;
+    transform: translateX(110%);
+    overflow: hidden;
+    opacity: 0;
+}
+
+#lastProject:hover .viewButton{
+    transform: translateX(0%);
+    opacity: 1;
+    transition: all .8s ease-in-out;
+    
+}
+
+#singleInfo a{
+    display: none;
+}
+
+.branding{
+    display: flex;
+    justify-content: space-evenly;
+    flex: content;
+    border: 2px solid #fff;
+    border-left: none;
+    border-right: none;
+    /* padding: 25px; */
+    background-color: #00A1B4;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.branding1{
+    height: 50vh;
+    overflow: hidden;
+    display:flex;
+    flex: 0 1 auto ;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 0;
+    background-color: #04555E;
+    padding-top: 35px;
+    padding-right: 30px;
+
+}
+
+.branding2{
+    padding-top: 45px;
+    display:flex;
+    flex: 0 1 auto ;
+    flex-grow: 1;
+    justify-content: center;
+
+}
+.branding1 h2{
+    width: 60%;
+    margin: 0;
+    padding: 70px 0;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.branding1 span{
+    color: #00e9e9;
+}
+
+
+@media (max-width: 768px){
+
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .upperNav{
+        display: block;
+        width: 100%;
+        margin: auto;
+        background-color: #04555E;
+        color: #fff;
+    }
+
+    .upperNav h1{
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 15px;
+    }
+
+    .menu ul{
+        background-color: #00A1B4;
+        padding: 13px;
+    }
+
+    .menu ul li, a{
+        display: block;
+        color: #fff;
+        margin: auto;
+        font-size: 13px;
+        text-align: center;
+    
+    }
+
+    nav a:hover{
+        color: #747474;
+    
+    }
+
+    .lowerNav{
+        margin-top: -17px;
+    }
+
+    .about h1{
+        font-size: 20px;
+    }
+
+    .about p{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .singleProject{
+        display: block;
+    }
+    
+
+    .threeProjects img{
+        width: 263px;
+        color: #747474;
+    }
+
+    .threeProjects{
+        display: block;
+    }
+
+    .singleInfo p{
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .projects h2{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #firstProject, #middleProject, #lastProject{
+        display: block;
+        width: 100%;
+    }
+
+    .ClientAndTestimonial{
+        background-color: #00A1B4;
+        display: block;
+    }
+
+    .testimonial, .clients{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .clients{
+        background-color: #04555E;
+    }
+
+    .clients img{
+        padding: 10px;
+    }
+    
+    .ClientAndTestimonial svg{
+        display: none;
+    }
+
+    .testimonial img{
+        width: 60px;
+        margin-right: 120px;
+    }
+
+    .clientsInfo{
+        margin-top: -50px; 
+        font-size: 16px;
+        z-index: 1200;
+        margin-left: 80px;
+    }
+    .clientsInfo h4{ 
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .clientsInfo p{ 
+        font-size: 14px;
+    }
+
+    .firstLower{
+        display: block;
+        width: 100%;
+    }
+
+    .firstLower ul li{
+        list-style: none;
+    }
+    .firstLower a{
+        text-decoration: none;
+        color: #04555E;
+    }
+
+    .firstLower hr{
+        border: 2px solid rgba(255, 255, 255, 0.274);
+    
+    }
+
+    .firstLower h3{
+        margin-bottom: -20px;
+    }
+    
+    
+    
+    .lowerLink{
+        display: block;
+        width: 100%;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+
+    .social i{
+        width: 30px;
+        border: 1px solid #fff;
+        border-radius: 70%;
+        padding: 7px;
+        margin: 10px;
+    }
+
+    .handleMessage{
+        width: 100%;
+        margin: auto;
+        font-weight: bold;
+        padding: 20px;
+    }
+
+    .lowestPart p{
+        font-size: 13px;
+    }
+
+    #firstProject .viewButton{
+        background-color: #038897;
+        height: 10px;
+        position: absolute;
+        display: block;
+        width: 27%;
+        margin-top: 10px; 
+        padding-top: 10px;
+        transform: translateX(0);
+    }
+
+    #singleInfo a{
+        display: block;
+        padding: 15px;
+        width: 100%;
+    }
+    
+    .branding{
+        display: block;
+    
+    }
+
+
+    
+    #lastProject a {
+        margin-right: -10px;
+    }
+    .viewButton,   .viewButton a,   .viewButton p, #middleProject .viewButton,
+    #lastProject .viewButton,  #firstProject .viewButton{
+        display: none;
+    }
+
+    .branding2{
+        padding-bottom: 45px;
+    
+    }
+    
+}
